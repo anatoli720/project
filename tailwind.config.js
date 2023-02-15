@@ -21,6 +21,7 @@ module.exports = {
         'plas':'rgba(0,121,174,.16)',
         'bord-color':'#f7fcff',
         'white-color':'rgb(255,255,255)',
+        'owerlay-color':'rgba(0,0,0,0.1)'
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',

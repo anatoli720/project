@@ -39,7 +39,7 @@ export default function Card({id,imageUrl,title,description,types,
                 <div className="flex justify-center cursor-pointer relative">
                     <img src={imageUrl} className="w-60 h-60 mx-0" />
                     <div className="h-7 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl px-4 text-xs font-medium text-white absolute bottom-0 left-40 pt-1">
-                        от 13.99 руб
+                        от {price} руб
                     </div>
                 </div>
                 <h2 className="text-center text-lg font-medium card-color mb-5">{title}</h2>

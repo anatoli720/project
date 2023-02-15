@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
     return (
         <div>
-            <ul className="flex flex-row justify-between my-3 ">
+            <ul className="flex flex-row justify-between  ">
                 <li className='cursor-pointer'><Link to="/"><img src={logo} className='w-40 h-8' /></Link></li>
                 <li className='text-2xl font-bold text-title-text flex'>
                     <span className='pt-2 pr-3'>
@@ -22,7 +22,7 @@ export default function Header() {
                     </ul>
                 </li>
             </ul>
-            <a className='flex justify-center'>Подробнее</a>
+            <a className='flex justify-center mb-3 text-sm underline cursor-pointer '>Подробнее</a>
         </div>
     )
 }
